@@ -1,3 +1,14 @@
 # 컴퓨터공학부
 # 2022243101 최완우
-# 
+# 사전 준비 5 : 예제 코딩하기
+
+name = "Python"
+numbers = [1, 2, 3, 4, 5]
+
+def square(x) :
+    return x * x
+
+for n in numbers :
+    print(f"{name}에서 {n}의 제곱은 {square(n)}입니다.")
+    
+print("프로그램 종료")
