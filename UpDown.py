@@ -15,7 +15,7 @@ while True :
         elif my_number < random_number :
             print("Up")
         elif my_number == random_number :
-            print("Collect")
+            print(f"Collect")
             
         game_count += 1
     except :
