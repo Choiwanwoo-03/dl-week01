@@ -8,9 +8,16 @@ random_number = random.randint(1, 100)
 
 game_count = 1
 while True :
-    if (game_count > random_number) :
-        print("{game_count} 보다 작습니다.")
-    elif (game_count < random_number) :
-        print("{game_count} 보다 큽니다.")
-    else :
-        print("정답입니다.")
+    try :
+        my_number = int(input("1 ~ 100 사이의 숫자를 입력하세요"))
+    
+
+
+
+
+    # if (game_count > random_number) :
+    #     print("{game_count} 보다 작습니다.")
+    # elif (game_count < random_number) :
+    #     print("{game_count} 보다 큽니다.")
+    # else :
+    #     print("정답입니다.")
