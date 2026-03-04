@@ -10,7 +10,7 @@ game_count = 1
 while True :
     try :
         my_number = int(input("1 ~ 100 사이의 숫자를 입력하세요"))
-    
+    except :
 
 
 
