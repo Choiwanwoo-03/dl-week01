@@ -13,3 +13,4 @@ while True :
     elif (game_count < random_number) :
         print("{game_count} 보다 큽니다.")
     else :
+        print("정답입니다.")
