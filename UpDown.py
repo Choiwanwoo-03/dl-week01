@@ -8,6 +8,6 @@ random_number = random.randint(1, 100)
 
 game_count = 1
 while True :
-    try:
         if (game_count > random_number) :
-            print("")
+            print("{game_count} 보다 작습니다.")
+    
