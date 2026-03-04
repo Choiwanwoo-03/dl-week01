@@ -14,5 +14,9 @@ while True :
             print("Down")
         elif my_number < random_number :
             print("Up")
+        elif my_number == random_number :
+            print("Collect")
+            
+        game_count += 1
     except :
-        print("Collect")
+        print("Except")
