@@ -8,4 +8,5 @@ random_number = random.randint(1, 100)
 
 game_count = 1
 while True :
-    
+    try:
+        if 
